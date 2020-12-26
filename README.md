@@ -7,3 +7,9 @@ In an attempt to automate the transcription of this audio (named meeting.wav) an
 The quality of the transcribed text is far from reality. The audio used was registered using a mobile phone, so it doesn't have a high quality. However, I believe that the greatest difficulty in transcription was caused by the way of speaking of the participants who speaks with different accents and dialects or speak very fast and don't separate words and sentences what makes their speech unclear to the engine, without using a more sophisticated and trained algorithm. Many other factors like age, gender, context, intent, etc, also can affect the recognition process.
 
 Human speech is not a simple phenomenon and it is influenced by many complex factors that are constantly changing as we change who speak. Machine recognition systems work much better in ideal conditions where we can reduce noise levels and the speeach is paced. Fortunately, there are algorithms and techniques more sophisticated to tackle this problem but this is not the subject here.
+
+
+Libraries used in this project:
+* `speech_recognition`
+* `os`
+* `pydub`
